@@ -1,0 +1,38 @@
+/* Style Sheet for ePub Books */
+
+/* Text indent will make a paragraph indent, like putting a tab at the beginning of each new paragraph
+The margin settings get rid of the white space between paragraphs, again so it looks more like a book
+The text-align line justifies the margins. If you don't want them justified, change it to left, or remove that line
+You don't have to specify a font, but you can */
+
+p {text-indent: .3in;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+/* Here we make our headings centered
+We've also made the headings the same font as the body text */
+
+h1 { text-align: center; }
+
+
+li {
+	list-style: upper-roman;
+	color: #444;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+b { font-weight: bold; }
+i { font-style: italic; }
+sup { vertical-align: super; font-size: smaller; }
+sub { vertical-align: sub; font-size: smaller; }
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+
+.larger { font-size: larger; }
