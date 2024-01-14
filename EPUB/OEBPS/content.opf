@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="b7ba6bc2-a4ec-4219-b8da-5ce030a0f62e" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="b7ba6bc2-a4ec-4219-b8da-5ce030a0f62e">none</dc:identifier>
+    <dc:title>Тлумачальны Слоўнік Беларускай Мовы</dc:title>
+    <dc:subject>Слоўнік</dc:subject>
+    <dc:rights>Copyright 1977 Галоўная рэдакцыя Беларускай Савецкай Энцыклапедыі</dc:rights>
+    <dc:creator opf:file-as="Крапіва, Кандрат" opf:role="red">Атраховіч К. К.</dc:creator>
+    <dc:description>Тлумачальны Слоўнік</dc:description>
+    <dc:date opf:event="publication">1977-01-01</dc:date>
+    <dc:language>be</dc:language>
+    <meta name="cover" content="epub_logo_color.jpg" />
+  </metadata>
+  <x-metadata>
+    <DictionaryInLanguage>be</DictionaryInLanguage>
+    <DictionaryOutLanguage>be</DictionaryOutLanguage>
+    <DefaultLookupIndex>headword</DefaultLookupIndex>
+  </x-metadata>
+
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/style.css" id="style" media-type="text/css" />
+    <item href="Text/Cover.xhtml" id="Cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/abrv_0.xhtml" id="abrv_0.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_0.xhtml" id="tsbm_0.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_1.xhtml" id="tsbm_1.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_2.xhtml" id="tsbm_2.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_3.xhtml" id="tsbm_3.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_4.xhtml" id="tsbm_4.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_5.xhtml" id="tsbm_5.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_6.xhtml" id="tsbm_6.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_7.xhtml" id="tsbm_7.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_8.xhtml" id="tsbm_8.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/tsbm_9.xhtml" id="tsbm_9.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/epub_logo_color.jpg" id="epub_logo_color.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Cover.xhtml" />
+    <itemref idref="abrv_0.xhtml" />
+    <itemref idref="tsbm_0.xhtml" />
+    <itemref idref="tsbm_1.xhtml" />
+    <itemref idref="tsbm_2.xhtml" />
+    <itemref idref="tsbm_3.xhtml" />
+    <itemref idref="tsbm_4.xhtml" />
+    <itemref idref="tsbm_5.xhtml" />
+    <itemref idref="tsbm_6.xhtml" />
+    <itemref idref="tsbm_7.xhtml" />
+    <itemref idref="tsbm_8.xhtml" />
+    <itemref idref="tsbm_9.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/Cover.xhtml" title="Cover" type="cover" />
+  </guide>
+</package>

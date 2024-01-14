@@ -1,0 +1,6 @@
+**/.DS_Store
+EPUB/OEBPS/Text/tsbm*.xhtml
+EPUB/OEBPS/Text/abrv_0*.xhtml
+**/*.epub
+generator/tsbm.xhtml
+GrammarDB*
